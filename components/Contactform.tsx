@@ -28,7 +28,7 @@ function ContactPage() {
       {/* Image on the right */}
       <div className="md:w-1/2">
         <Image
-          src="/images/family.PNG"
+          src="/images/family.png"
           alt="Contact Image"
           width={500}
           height={300}
