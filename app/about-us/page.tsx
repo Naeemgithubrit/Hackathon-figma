@@ -6,14 +6,13 @@ import AboutUsSeventhSection from '@/components/AboutUsSeventhSection'
 import AboutUsSixthSection from '@/components/AboutUsSixthSection'
 import AboutUsThirdSection from '@/components/AboutUsThirdSection'
 import Footer from '@/components/Footer'
-import GreenHeader from '@/components/GreenHeader'
-import Header from '@/components/Header'
+import AboutHeader from '@/components/AboutHeader'
 import React from 'react'
 
 export default function page() {
   return (
     <div>
-      <GreenHeader/>
+   <AboutHeader/>
         
       <AboutUsHeroSection/>
       <AboutUsSecondSection/>
