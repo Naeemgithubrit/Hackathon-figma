@@ -25,7 +25,7 @@ export default function Header() {
             <Link href={"/"} className="text-lg">
               Home
             </Link>
-            <Link href={"/shop"} className="text-lg">
+            <Link href={"/blog"} className="text-lg">
               Product
             </Link>
             <Link href={"/pricing"} className="text-lg">
@@ -34,8 +34,9 @@ export default function Header() {
             <Link href={"/contact"} className="text-lg">
               Contact
             </Link>
+           
           </div>
-           <div className="relative flex justify-center items-center gap-8">
+          <div className="relative flex justify-center items-center gap-8">
             <div className="hidden lg:flex justify-center items-center">
             <Link href="/loginPage">
             <button className=" hover:bg-black text-blue-400 font-bold py-2 px-4 rounded">
@@ -46,7 +47,8 @@ export default function Header() {
 
             
             </Link>
-              <div>
+
+           <div>
            <Link href={"/teamPage"}>
               
               
@@ -69,6 +71,9 @@ Become a member
 </Link>
 
 
+
+           </div>
+             
             </div>
             </div>
             </div>
