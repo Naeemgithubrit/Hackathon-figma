@@ -6,7 +6,7 @@ import { BsSearch, BsCart } from "react-icons/bs";
 import { IoIosHeartEmpty } from "react-icons/io";
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // State for the menu toggle
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <header className="w-full border-b">
@@ -16,7 +16,7 @@ export default function Header() {
           <h1 className="font-montserrat text-black text-2xl font-bold">Bandage</h1>
         </Link>
 
-        {/* Desktop Navigation */}
+        {/* Desktop Navigation Links */}
         <nav className="hidden lg:flex items-center gap-6">
           <Link href="/" className="text-black text-lg font-medium hover:text-blue-500 transition">
             Home
@@ -30,32 +30,32 @@ export default function Header() {
           <Link href="/contact" className="text-black text-lg font-medium hover:text-blue-500 transition">
             Contact
           </Link>
-
-          {/* Buttons */}
-          <div className="flex items-center gap-4">
-            <Link href="/loginPage">
-              <button className="hover:bg-black hover:text-white transition-all duration-300 text-blue-400 font-bold py-2 px-5 rounded-md border border-blue-400">
-                Login
-              </button>
-            </Link>
-            <Link href="/teamPage">
-              <button className="flex items-center gap-2 font-montserrat bg-[#23A6F0] hover:bg-blue-600 text-white text-sm font-bold py-2 px-6 rounded-md transition-all duration-300">
-                Become a member
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="15px"
-                  viewBox="0 -960 960 960"
-                  width="15px"
-                  fill="#ffffff"
-                >
-                  <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" />
-                </svg>
-              </button>
-            </Link>
-          </div>
         </nav>
 
-        {/* Mobile Icons */}
+        {/* Login and Become a Member Buttons */}
+        <div className="hidden lg:flex items-center gap-4">
+          <Link href="/loginPage">
+            <button className="hover:bg-black hover:text-white transition-all duration-300 text-blue-400 font-bold py-2 px-5 rounded-md border border-blue-400">
+              Login
+            </button>
+          </Link>
+          <Link href="/teamPage">
+            <button className="flex items-center gap-2 font-montserrat bg-[#23A6F0] hover:bg-blue-600 text-white text-sm font-bold py-2 px-6 rounded-md transition-all duration-300">
+              Become a member
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="15px"
+                viewBox="0 -960 960 960"
+                width="15px"
+                fill="#ffffff"
+              >
+                <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" />
+              </svg>
+            </button>
+          </Link>
+        </div>
+
+        {/* Mobile Hamburger Menu */}
         <div className="flex items-center gap-4 lg:hidden">
           <BsSearch className="w-5 h-5 cursor-pointer hover:text-blue-500 transition" />
           <BsCart className="w-5 h-5 cursor-pointer hover:text-blue-500 transition" />
@@ -114,8 +114,6 @@ export default function Header() {
             >
               Contact
             </Link>
-
-            {/* Buttons */}
             <Link href="/loginPage">
               <button
                 className="hover:bg-black hover:text-white transition-all duration-300 text-blue-400 font-bold py-2 px-6 rounded-md border border-blue-400 w-3/4"
