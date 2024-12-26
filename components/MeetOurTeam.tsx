@@ -63,7 +63,7 @@ const MeetOurTeam = () => {
             {/* Instagram Icon */}
             <div>
               <Image
-                src="/user/w-img-inst.png" // Small image
+                src="/images/user/w-img-inst.png" // Small image
                 alt="Instagram"
                 width={24}
                 height={24}
@@ -81,7 +81,7 @@ const MeetOurTeam = () => {
             {/* Twitter Icon */}
             <div>
               <Image
-                src="/user/w-img-twt.png" // Small image
+                src="/images/user/w-img-twt.png" // Small image
                 alt="Twitter"
                 width={24}
                 height={24}
@@ -123,7 +123,7 @@ const MeetOurTeam = () => {
             <div>
               {/* Small Device Image */}
               <Image
-                src="/user/w-img-fb.png" // Small image
+                src="/images/user/w-img-fb.png" // Small image
                 alt="Facebook"
                 width={24}
                 height={24}
@@ -142,7 +142,7 @@ const MeetOurTeam = () => {
             {/* Instagram Icon */}
             <div>
               <Image
-                src="/user/w-img-inst.png" // Small image
+                src="/images/user/w-img-inst.png" // Small image
                 alt="Instagram"
                 width={24}
                 height={24}
@@ -160,7 +160,7 @@ const MeetOurTeam = () => {
             {/* Twitter Icon */}
             <div>
               <Image
-                src="/user/w-img-twt.png" // Small image
+                src="/images/user/w-img-twt.png" // Small image
                 alt="Twitter"
                 width={24}
                 height={24}
@@ -201,7 +201,7 @@ const MeetOurTeam = () => {
             <div>
               {/* Small Device Image */}
               <Image
-                src="/user/w-img-fb.png" // Small image
+                src="/images/user/w-img-fb.png" // Small image
                 alt="Facebook"
                 width={24}
                 height={24}
@@ -363,7 +363,7 @@ const MeetOurTeam = () => {
             <div>
               {/* Small Device Image */}
               <Image
-                src="/user/w-img-fb.png" // Small image
+                src="/images/user/w-img-fb.png" // Small image
                 alt="Facebook"
                 width={24}
                 height={24}
@@ -382,7 +382,7 @@ const MeetOurTeam = () => {
             {/* Instagram Icon */}
             <div>
               <Image
-                src="/user/w-img-inst.png" // Small image
+                src="/images/user/w-img-inst.png" // Small image
                 alt="Instagram"
                 width={24}
                 height={24}
@@ -400,7 +400,7 @@ const MeetOurTeam = () => {
             {/* Twitter Icon */}
             <div>
               <Image
-                src="/user/w-img-twt.png" // Small image
+                src="/images/user/w-img-twt.png" // Small image
                 alt="Twitter"
                 width={24}
                 height={24}
@@ -441,7 +441,7 @@ const MeetOurTeam = () => {
             <div>
               {/* Small Device Image */}
               <Image
-                src="/user/w-img-fb.png" // Small image
+                src="/images/user/w-img-fb.png" // Small image
                 alt="Facebook"
                 width={24}
                 height={24}
@@ -460,7 +460,7 @@ const MeetOurTeam = () => {
             {/* Instagram Icon */}
             <div>
               <Image
-                src="/user/w-img-inst.png" // Small image
+                src="/images/user/w-img-inst.png" // Small image
                 alt="Instagram"
                 width={24}
                 height={24}
@@ -478,7 +478,7 @@ const MeetOurTeam = () => {
             {/* Twitter Icon */}
             <div>
               <Image
-                src="/user/w-img-twt.png" // Small image
+                src="/images/user/w-img-twt.png" // Small image
                 alt="Twitter"
                 width={24}
                 height={24}
@@ -523,7 +523,7 @@ const MeetOurTeam = () => {
             <div>
               {/* Small Device Image */}
               <Image
-                src="/user/w-img-fb.png" // Small image
+                src="/images/user/w-img-fb.png" // Small image
                 alt="Facebook"
                 width={24}
                 height={24}
@@ -542,7 +542,7 @@ const MeetOurTeam = () => {
             {/* Instagram Icon */}
             <div>
               <Image
-                src="/user/w-img-inst.png" // Small image
+                src="/images/user/w-img-inst.png" // Small image
                 alt="Instagram"
                 width={24}
                 height={24}
@@ -560,7 +560,7 @@ const MeetOurTeam = () => {
             {/* Twitter Icon */}
             <div>
               <Image
-                src="/user/w-img-twt.png" // Small image
+                src="/images/user/w-img-twt.png" // Small image
                 alt="Twitter"
                 width={24}
                 height={24}
@@ -602,7 +602,7 @@ const MeetOurTeam = () => {
             <div>
               {/* Small Device Image */}
               <Image
-                src="/user/w-img-fb.png" // Small image
+                src="/images/user/w-img-fb.png" // Small image
                 alt="Facebook"
                 width={24}
                 height={24}
@@ -621,7 +621,7 @@ const MeetOurTeam = () => {
             {/* Instagram Icon */}
             <div>
               <Image
-                src="/user/w-img-inst.png" // Small image
+                src="/images/user/w-img-inst.png" // Small image
                 alt="Instagram"
                 width={24}
                 height={24}
@@ -639,7 +639,7 @@ const MeetOurTeam = () => {
             {/* Twitter Icon */}
             <div>
               <Image
-                src="/user/w-img-twt.png" // Small image
+                src="/images/user/w-img-twt.png" // Small image
                 alt="Twitter"
                 width={24}
                 height={24}
@@ -680,7 +680,7 @@ const MeetOurTeam = () => {
             <div>
               {/* Small Device Image */}
               <Image
-                src="/user/w-img-fb.png" // Small image
+                src="/images/user/w-img-fb.png" // Small image
                 alt="Facebook"
                 width={24}
                 height={24}
@@ -699,7 +699,7 @@ const MeetOurTeam = () => {
             {/* Instagram Icon */}
             <div>
               <Image
-                src="/user/w-img-inst.png" // Small image
+                src="/images/user/w-img-inst.png" // Small image
                 alt="Instagram"
                 width={24}
                 height={24}
@@ -717,7 +717,7 @@ const MeetOurTeam = () => {
             {/* Twitter Icon */}
             <div>
               <Image
-                src="/user/w-img-twt.png" // Small image
+                src="/images/user/w-img-twt.png" // Small image
                 alt="Twitter"
                 width={24}
                 height={24}
